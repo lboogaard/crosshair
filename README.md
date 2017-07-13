@@ -1,7 +1,9 @@
 # crosshair
 A simple module to add a crosshair marker to matplotlib.
 
-Here to test-drive and expand, before pushing it to the matplotlib repository.
+It is currently being tested and expanded, before pushing it to the matplotlib repository.
+
+Feel free to contribute!
 
 ## Usage
 
