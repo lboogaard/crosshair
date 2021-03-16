@@ -41,14 +41,14 @@ from matplotlib.path import Path
 import matplotlib.markers
 import matplotlib.lines
 
-_crosshair_path = Path([(0.0, -0.5),  # center, bottom
-                        (0.0, -0.25), # center, q_bot
-                        (-0.5, 0.0),  # left, center
-                        (-0.25, 0.0), # q_left, center
-                        (0.0, 0.25),  # center, q_top
-                        (0.0, 0.5),   # center, top
-                        (0.25, 0.0),  # q_right, center
-                        (0.5, 0.0)],  # right, center
+_crosshair_path = Path([(0.0, -0.5),   # center, bottom
+                        (0.0, -0.25),  # center, q_bot
+                        (-0.5, 0.0),   # left, center
+                        (-0.25, 0.0),  # q_left, center
+                        (0.0, 0.25),   # center, q_top
+                        (0.0, 0.5),    # center, top
+                        (0.25, 0.0),   # q_right, center
+                        (0.5, 0.0)],   # right, center
                        [Path.MOVETO,
                         Path.LINETO,
                         Path.MOVETO,
