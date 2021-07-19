@@ -58,11 +58,13 @@ _crosshair_path = Path([(0.0, -0.5),   # center, bottom
                         Path.MOVETO,
                         Path.LINETO])
 
+
 def _set_crosshair(self):
     self._transform = Affine2D().scale(1.0)
     self._snap_threshold = 1.0
     self._filled = False
     self._path = _crosshair_path
+
 
 matplotlib.markers.MarkerStyle._set_crosshair = _set_crosshair
 matplotlib.markers.MarkerStyle.markers['c'] = 'crosshair'
